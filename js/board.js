@@ -23,5 +23,20 @@ class Board {
       this.move % 2 === 0 ? this.blackChip(position) : this.whiteChip(position);
       return true;
     }
+    return false;
+  };
+
+  hasWinningRow() {
+    let chipValues = this.chips.map((chip) => {
+      return chip.getValue();
+    }).join('');
+    this.hasWinningCombination(chipValues) ? this.winner = true : false;
+  };
+
+  hasWinningColumn() {
+    let chipValues = [];
+    for(let i = 0; i < /*what am I changing this to?*/; i++){
+      for(let j = i; j < 42; )
+    }
   }
 }
