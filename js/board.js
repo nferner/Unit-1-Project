@@ -20,7 +20,7 @@ class Board {
 
   makePlay(position) {
     if(this.canBePlayed(position)) {
-      this.move % 2 === 0 ? this.blackChip(position) : this.whiteChip(position);
+      this.move % 2 === 0 ? this.blackChip(position) : this.redChip(position);
       return true;
     }
     return false;
@@ -39,4 +39,7 @@ class Board {
       for(let j = i; j < 42; )
     }
   }
+}
+hasWinningRow () {
+
 }
