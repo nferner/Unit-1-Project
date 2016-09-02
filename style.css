@@ -13,26 +13,14 @@ body {
 h1 {
   text-align: center;
 }
-.chip {
-  position: relative;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  background-color: white;
-  margin: 1.25rem;
-  display: inline-block;
-}
-.chip1 {
-  position: relative;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  background-color: white;
-  margin: 1.25rem;
-  display: inline-block;
-}
 
-#rowA {
+.row {
+  position: relative;
+  width: 3rem;
+  height: 29.75 rem;
+  display: inline-table;
+}
+.chip {
   position: relative;
   width: 3rem;
   height: 3rem;
