@@ -1,11 +1,21 @@
-function chipColor () {
-  document.querySelector('.chip').style.backgroundColor = 'black'
+function chipColorBlack () {
+  document.querySelector('.chip1').style.backgroundColor = 'black'
 }
+function chipColorBlack2 () {
+  document.querySelector('.chip2').style.backgroundColor = 'black'
+}
+// function chipColorRed () {
+//  document.querySelector('.chip').style.backgroundColor = 'red'
+// }
+
+// function nextChip () {
 
 window.onload = function () {
-  document.querySelector('.chip').addEventListener('click', chipColor)
+  document.querySelector('.chip1').addEventListener('click', chipColorBlack)
+  document.querySelector('.chip2').addEventListener('click', chipColorBlack2)
+//  document.querySelector('.chip').addEventListener('click', chipColorRed)
 }
-/* class chip () {
+/* class chip () { s
   constructor () {
  this.el = document.querySelectorAll('.chip').style.background = 'black'
   }

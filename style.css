@@ -13,9 +13,17 @@ body {
 h1 {
   text-align: center;
 }
-
 .chip {
-  position:relative;
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: white;
+  margin: 1.25rem;
+  display: inline-block;
+}
+.chip1 {
+  position: relative;
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
@@ -24,8 +32,27 @@ h1 {
   display: inline-block;
 }
 
+#rowA {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: white;
+  margin: 1.25rem;
+  display: inline-block;
+}
 
-.player {
+.player1 {
+  position: relative;
+  width: 15rem;
+  height: 5rem;
+  background-color: white;
+  display: inline-block;
+  margin-left: 2.5rem;
+  margin-top: 1rem
+}
+
+.player2 {
   position: relative;
   width: 15rem;
   height: 5rem;
