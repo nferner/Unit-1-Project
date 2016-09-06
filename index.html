@@ -1,78 +1,38 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Connect Four</title>
-  <link rel="stylesheet" type="text/css" href="style.css#">
-</head>
-<body>
-  <h1>Connect Four</h1>
-  <div id='board'>
-    <div class='row'>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-    </div>
-    <div class='row'>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-    </div>
-    <div class='row'>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-    </div>
-    <div class='row'>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-    </div>
-    <div class='row'>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-    </div>
-    <div class='row'>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-    </div>
-    <div class='row'>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-      <li class='chip'></li>
-    </div>
-  </div>
-  <div id='players'>
-    <li class='player1'></li>
-    <li class='player2'></li>
-  </div>
-  <script src='js/chip.js'></script>
-  <script src='js/board.js'></script>
-  <script src='js/game.js'></script>
-  <script src="js/app.js"></script>
-</body>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Unit-1-project by nferner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Unit-1-project</h1>
+      <h2 class="project-tagline">Connect Four</h2>
+      <a href="https://github.com/nferner/Unit-1-Project" class="btn">View on GitHub</a>
+      <a href="https://github.com/nferner/Unit-1-Project/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/nferner/Unit-1-Project/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h3>
+<a id="for-the-connect-four-game-i-utilized-html-css-and-javascript" class="anchor" href="#for-the-connect-four-game-i-utilized-html-css-and-javascript" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>For the Connect Four game I utilized HTML, CSS and Javascript.</h3>
+
+<h3>
+<a id="to-start-the-process-i-drew-out-the-game-board-and-sketched-how-the-pieces-would-interact-with-each-other-turn-based-and-also-based-on-the-previous-players-turn-the-turns-would-have-to-be-determined-from-horizontal-vertical-and-diagnol-functions-each-function-will-have-to-add-the-amount-of-same-color-pieces-in-each-direction-to-determine-whether-or-not-there-was-a-grouping-of-four-one-of-the-difficult-parts-would-have-to-be-rendering-the-program-to-count-in-two-different-directions-at-the-same-time-and-add-those-directions-for-a-sum-another-portion-to-stop-that-process-would-be-to-stop-the-progression-as-soon-as-it-reached-an-empty-spot-or-a-spot-with-the-other-players-color" class="anchor" href="#to-start-the-process-i-drew-out-the-game-board-and-sketched-how-the-pieces-would-interact-with-each-other-turn-based-and-also-based-on-the-previous-players-turn-the-turns-would-have-to-be-determined-from-horizontal-vertical-and-diagnol-functions-each-function-will-have-to-add-the-amount-of-same-color-pieces-in-each-direction-to-determine-whether-or-not-there-was-a-grouping-of-four-one-of-the-difficult-parts-would-have-to-be-rendering-the-program-to-count-in-two-different-directions-at-the-same-time-and-add-those-directions-for-a-sum-another-portion-to-stop-that-process-would-be-to-stop-the-progression-as-soon-as-it-reached-an-empty-spot-or-a-spot-with-the-other-players-color" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>To start the process I drew out the game board and sketched how the pieces would interact with each other. Turn based and also based on the previous player's turn. The turns would have to be determined from horizontal, vertical and diagnol functions. Each function will have to add the amount of same color pieces in each direction to determine whether or not there was a grouping of four. One of the difficult parts would have to be rendering the program to count in two different directions at the same time and add those directions for a sum. Another portion to stop that process would be to stop the progression as soon as it reached an empty spot or a spot with the other player's color.</h3>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/nferner/Unit-1-Project">Unit-1-project</a> is maintained by <a href="https://github.com/nferner">nferner</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
 </html>
-
-

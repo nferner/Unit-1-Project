@@ -1,0 +1,6 @@
+{
+  "name": "Unit-1-project",
+  "tagline": "Connect Four",
+  "body": "### For the Connect Four game I utilized HTML, CSS and Javascript. \r\n\r\n###To start the process I drew out the game board and sketched how the pieces would interact with each other. Turn based and also based on the previous player's turn. The turns would have to be determined from horizontal, vertical and diagnol functions. Each function will have to add the amount of same color pieces in each direction to determine whether or not there was a grouping of four. One of the difficult parts would have to be rendering the program to count in two different directions at the same time and add those directions for a sum. Another portion to stop that process would be to stop the progression as soon as it reached an empty spot or a spot with the other player's color.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
